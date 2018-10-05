@@ -18,7 +18,7 @@ plugin.prototype.message_handler = function(message, next) {
         var service = this.routers[servicename];
         if(service) {
             var handler = service[method];
-            console.log("servicehandler:",servicename,method)
+            console.log("servicehandler:",servicename,method,handler);
             if(handler && typeof handler == "function" ) {
                 handler = handler.bind(service);
                 handler(msg.body, message.connection.session, function(err,result){

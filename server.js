@@ -1,4 +1,4 @@
-var server = require("tcpserver");
+var server = require("nodeserver");
 var pomelo = require("./plugins/protocol/pomelo");
 var plugins = server.plugins;
 

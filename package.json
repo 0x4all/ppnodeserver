@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/0x4all/ppnodeserver/issues"
   },
-  "homepage": "https://github.com/0x4all/ppnodeserver#readme"
+  "homepage": "https://github.com/0x4all/ppnodeserver#readme",
+  "dependencies": {
+    "nodeserver": "git+https://github.com/0x4all/nodeserver.git"
+  }
 }
