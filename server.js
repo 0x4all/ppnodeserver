@@ -45,7 +45,7 @@ tcpserver.prototype._setup_server = function() {
     this.handshake = pomelo.handshake();
     this.router = pomelo.router();
 
-    this.blocker.config("192.168.1.1");
+    // this.blocker.config("192.168.1.1");
     server.connection(this.blocker.connection_handler.bind(this.blocker));
     
 
